@@ -47,4 +47,14 @@ The dataset is an open-source dataset provided by Instacart. You can download it
 >>  * add_to_cart_order: order in which each product was added to cart
 >>  * reordered: 1 if this product has been ordered by this user in the past, 0 otherwise
 
+## The Approaches
+
+* Perform Data preprocessing and do Exploratory Data Analysis (EDA) of the customer data.
+* Description Analysis of customer behavior, including generating insights and building data visualizations for storytelling.
+* Build a model to predict the user's reordered order, and define a metric for model evaluation.
+* Create a shopping recommender to recommend products to users based on their purchase history. (**cosine similarity** [Details](https://en.wikipedia.org/wiki/Cosine_similarity))
+
+## Requirements
+
+Python 3.7
 
