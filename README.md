@@ -4,13 +4,15 @@ This is a notebook contains the explorationary data analysis of the Instacart cu
 
 ## The Task
 
+The task of this project is to predict the top 20 products we can offer as the recommendation before the customer's next order. The evaluation metric is the F1-score between the set of predicted products and the set of true products.
+
 ## The Dataset
 
 The dataset is an open-source dataset provided by Instacart. You can download it from [Kaggle](https://www.kaggle.com/psparks/instacart-market-basket-analysis) 
 
 ###  Data Schema
 
-* orders (3.4m rows, 206k users):
+>* orders (3.4m rows, 206k users):
   * order_id: order identifier
   * user_id: customer identifier
   * eval_set: which evaluation set this order belongs in (see SET described below)
